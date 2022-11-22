@@ -4,22 +4,69 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ejercicio 13</title>
+    <title> Ejercicio 13 </title>
 </head>
 
 <body>
-    <h2> Kebabs Luis </h2>
-    <h3> Para tu pedido a domicilicio rellena el formulario</h3>
-
-    <form action="/action_page.php">
-      <label for="fname">First name:</label><br>
-      <input type="text" id="fname" name="fname" value="John"><br>
-      <label for="lname">Last name:</label><br>
-      <input type="text" id="lname" name="lname" value="Doe"><br><br>
-      <input type="submit" value="Submit">
+    <h2> KEBAB LUIS  </h2>
+    <h3> PARA TU PEDIDO A DOMICILIO, RELLENA EL FORMULARIO </h3>
+    
+    <fieldset>
+      <form action="/action_page.php">
+        <label for="fname"> Primer nombre</label><br>
+        <input type="text" id="fname" name="fname" value="John"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" value="Doe"><br><br>
+        <input type="submit" value="Submit">
     </form> 
+    </fieldset>
     
     <p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
-    
+    <fieldset>
+      <legend> Opciones opcionales </legend>
+          Elige su color preferido: <input type="color">
+      <br>
+      <br>
+          <input type="radio" value="intel"> Hombre  
+      <br>
+          <input type="radio" value="amd"> Mujer
+      <br>
+      <br>
+          Elija una hora de inicio <input type="time">
+      <br>
+      <br>
+          Elija un fichero: <input type="file">
+      <br>
+      <br>
+      ¿Qué circuito le ha gustado más?
+      <br>
+          <select multiple="multiple">
+          <option> Silverstone </option>
+          <option> Mónaco </option>
+          <option> Jerez </option>
+          </select>
+      <br>
+      <br>
+      <input type="radio" value="Moto GP"> Moto GP <input type="radio" value="Moto 2"> Moto 2 <input type="radio" value="Moto 3"> Moto 3    
+      <br>
+      <br>
+      ¿Que asignatura le gusta más?
+          <select> 
+            <option> Ciencias </option>
+             <option> Lengua </option>
+             <option> Matematicas </option>
+          </select>
+      <br>
+      <br>
+          Exprese en este cuadro como se siente
+      <br>
+           <textarea id="msg" name="user_message"></textarea>
+      <br>
+      <br>
+          Elija una fecha: <input type="date">
+      <br>
+      <br>
+
+  </fieldset>  
 </body>
 </html>
