@@ -8,65 +8,87 @@
 </head>
 
 <body>
-    <h2> KEBAB LUIS  </h2>
-    <h3> PARA TU PEDIDO A DOMICILIO, RELLENA EL FORMULARIO </h3>
+    <h1>TELEBIRRIA</h1>
     
-    <fieldset>
-      <form action="/action_page.php">
-        <label for="fname"> Primer nombre</label><br>
-        <input type="text" id="fname" name="fname" value="John"><br>
-        <label for="lname">Last name:</label><br>
-        <input type="text" id="lname" name="lname" value="Doe"><br><br>
-        <input type="submit" value="Submit">
-    </form> 
-    </fieldset>
+    <h2>PARA REALIZAR SU PEDIDO, RELLENE EL FORMULARIO</h2>
+     <form >
+        <fieldset>
+            <legend><b>Datos personales y envío</b></legend>
+            <label>Nombre</label>
+            <input type="text"></input>
+            <br>
+            <label>Apellidos</label>
+            <input type="text"></input>
+            <br>
+            <label>Domicilio</label>
+            <input type="text"></input>
+            <br> 
+            <label>Localidad</label>
+            <input type="text"></input>
+            <br>
+            <label>Código Postal</label>
+            <input type="text"></input>
+            <br> 
+            <label>Teléfono</label>
+            <input type="tel"></input>
+            <br> 
+        </fieldset>
     
-    <p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
-    <fieldset>
-      <legend> Opciones opcionales </legend>
-          Elige su color preferido: <input type="color">
-      <br>
-      <br>
-          <input type="radio" value="intel"> Hombre  
-      <br>
-          <input type="radio" value="amd"> Mujer
-      <br>
-      <br>
-          Elija una hora de inicio <input type="time">
-      <br>
-      <br>
-          Elija un fichero: <input type="file">
-      <br>
-      <br>
-      ¿Qué circuito le ha gustado más?
-      <br>
-          <select multiple="multiple">
-          <option> Silverstone </option>
-          <option> Mónaco </option>
-          <option> Jerez </option>
-          </select>
-      <br>
-      <br>
-      <input type="radio" value="Moto GP"> Moto GP <input type="radio" value="Moto 2"> Moto 2 <input type="radio" value="Moto 3"> Moto 3    
-      <br>
-      <br>
-      ¿Que asignatura le gusta más?
-          <select> 
-            <option> Ciencias </option>
-             <option> Lengua </option>
-             <option> Matematicas </option>
-          </select>
-      <br>
-      <br>
-          Exprese en este cuadro como se siente
-      <br>
-           <textarea id="msg" name="user_message"></textarea>
-      <br>
-      <br>
-          Elija una fecha: <input type="date">
-      <br>
-      <br>
+    
+    </form>
 
-  </fieldset>  
+    
+
+    <form >
+        <fieldset>
+            <legend><b>Elija la opción de entrega</b></legend>
+            <label>Recoger en el local</label>
+            <input type="radio"></input>
+            <br>
+            <label>Enviar a domicilio</label>
+            <input type="radio"></input>
+        </fieldset>
+    </form>
+
+    <form >
+        <fieldset>
+            <legend><b>¿Quiere que le enviemos nuestras ofertas?</b></legend>
+                <label>Enviar al domicilio</label>
+                    <input type="checkbox"></input>
+                        <br>
+                <label>Enviar por mail</label>
+                    <input type="checkbox"></input>
+        </fieldset>
+    </form>
+
+    <form >
+        <fieldset>
+            <legend><b>Elija su menú</b></legend>
+                <label>Tamaño del bocadillo</label>
+                    <br>
+                    <select id="menu" name="menu" size="4">
+                        <option>Pequeño</option>
+                        <option>Mediano</option>
+                        <option>Grande</option>
+                        <option>Enorme</option>
+                    </select>
+                    <br>
+                <label>Contenido del bocadillo</label>
+                     <br>
+                    <select id="menu" name="menu" size="4">
+                    <option>Anchoas</option>
+                    <option>Calamares</option>
+                    <option>Mejillones</option>
+                    <option>Jamón</option>
+                    </select>
+                    <br>
+                <label>Puede añadir alguna sugerencia</label>
+                <br>
+                    <textarea id="msg" name="user_message">Por ejemplo que caliente el pan, etc</textarea>
+                <br> <br>
+                    <input type="submit" value="Enviar datos">
+        </fieldset>
+    </form>
+    
 </body>
 </html>
