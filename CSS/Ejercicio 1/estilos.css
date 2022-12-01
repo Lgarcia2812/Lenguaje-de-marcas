@@ -1,0 +1,16 @@
+h1{
+    color: red;
+    font-size: 4em;
+    border: 2px solid red;
+    background-color: rgb(200, 200, 200);
+}
+
+h2{
+    color: red;
+    font-size: 3em;
+}
+
+h3{
+    color: red;
+    font-size: 2em;
+}
