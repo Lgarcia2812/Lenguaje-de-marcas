@@ -1,0 +1,23 @@
+.div {
+    width: 50%;
+    height: 50%;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+ .uno {
+    background-color: red;
+  }
+  
+  .dos {
+    background-color: green;
+  }
+  
+  .tres {
+    background-color: blue;
+  }
+  
+  .cuatro {
+    background-color: yellow;
+  }
+  
