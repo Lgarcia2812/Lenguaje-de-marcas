@@ -1,0 +1,30 @@
+p {
+    margin: 0;
+    padding: 0;
+    border: 5px solid;
+  }
+
+  p:first-child {
+    margin: 0;
+    padding: 0;
+    border-color: red;
+    background-color: rgb(192, 157, 157);
+  }
+
+  p:nth-child(2) {
+    margin: 5px;
+    padding: 5px;
+    border-color: green;
+    background-color: rgb(42, 120, 184);
+  }
+
+  p:last-child {
+    margin: 0;
+    padding: 20px;
+    border-color: blue;
+    background-color: rgb(177, 71, 159);
+  }
+
+  body {
+    margin: 0;
+  }
