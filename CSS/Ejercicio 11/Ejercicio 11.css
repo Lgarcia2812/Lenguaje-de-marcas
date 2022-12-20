@@ -1,0 +1,20 @@
+.lista-romanos {
+    list-style-type: lower-roman;
+    padding-left: 20px;
+  }
+
+  .lista-romanos li {
+    text-indent: 20px;
+  }
+
+
+  .lista-logo li {
+    display: flex;
+    align-items: center;
+  }
+
+  .lista-logo img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
