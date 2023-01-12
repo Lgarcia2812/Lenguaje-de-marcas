@@ -7,17 +7,32 @@
 
 .cabecera{
     width: 100%;
-    background-color: rgb(90, 85, 85);
+    background-color: rgb(204, 196, 196);
     padding-left: 10px;
     margin-right: 10px;
     text-align: center;
 }
 
-.centro{
+.menu{
+    background-color: aqua;
+    text-align: center;   
     
 }
 
+.centro{
+    background-color: yellow;
+    overflow-y: scroll;
+
+}
+
 .footer{
+    background-color: yellowgreen;
+    
+}
 
-
+.foto{
+    
+    vertical-align: middle;
+    
+      
 }
