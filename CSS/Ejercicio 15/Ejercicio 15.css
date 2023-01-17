@@ -1,0 +1,25 @@
+.container{
+    width: 100%;
+}
+
+ .menu {
+    width: 100%;
+    margin-top: 2%;
+    
+  }
+  
+  .menu a {
+    background-color: #eee;
+    color: black;
+    padding: 19px;
+    text-decoration: none;
+  }
+  
+  .menu a:hover {
+    background-color: #ccc;
+  }
+  
+  .menu a.active {
+    background-color: #70bda0;
+    color: white;
+  }
